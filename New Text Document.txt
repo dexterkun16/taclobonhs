@@ -1,0 +1,138 @@
+failed to send mail, make sure your email is correct.
+error code #0069420
+
+
+@media screen and (max-width:1553px){
+    div.content-sec1{
+        height: 70vh !important;
+    }
+}
+@media screen and (max-width:1434px){
+    div.content-sec1{
+        height: 75vh !important;
+    }
+}
+@media screen and (max-width:1412px){
+    div.content-sec1{
+        height: 80vh !important;
+    }
+}
+@media screen and (max-width:1247px){
+    div.content-sec1{
+        height: 90vh !important;
+    }
+    .footer .footer-content{
+        padding-left: 50px !important;
+        padding-right: 50px !important;
+    }
+}
+@media screen and (max-width:1145px){
+    .footer .footer-content{
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+}
+@media screen and (max-width:1116px){
+    div.content-sec1{
+        height: 100vh !important;
+    }
+}
+@media screen and (max-width:998px){
+    div.content-sec1{
+        height: 110vh !important;
+    }
+}
+@media screen and (max-width:945px){
+    div.content-sec1{
+        height: 120vh !important;
+    }
+}
+@media screen and (max-width:928px){
+    div.content-sec1{
+        height: 130vh !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+COVER IMAGE MAKE LITTLE DARK
+
+.courses header .header-body:before {
+    background: rgba(0, 0, 0, 0.5);
+    content: "";
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    left: 0;
+
+
+
+add faq and trivia
+
+
+
+<!-- SHS -->
+<!--
+<div class="shs-info-aca"></div>
+		<div class="shs-info-aca-content">
+			<p class="track-desc">
+Choosing this track means you are looking forward to go to college. This track will help you prepare yourself for the subject specialization of the college course you will take in the future.
+
+You have four strands in this track to choose from:
+			</p>
+				<h3>General Academic Strand (GAS)</h3>
+				<p>While the other strands are career-specific, the General Academic Strand is great for students who are still undecided on which track to take. You can choose electives from the different academic strands under this track. These subjects include Humanities, Social Sciences, Applied Economics, Organization and Management, and Disaster Preparedness.</p>
+				<h3>Humanities and Social Sciences (HUMSS) Strand</h3>
+				<p>The HUMMS strand is designed for those who wonder what is on the other side of the wall. In other words, you are ready to take on the world and talk to a lot of people. This is for those who are considering taking up journalism, communication arts, liberal arts, education, and other social science-related courses in college.
+
+				If you take this strand, you could be looking forward to becoming a teacher, a psychologist, a lawyer, a writer, a social worker, or a reporter someday. This strand focuses on improving your communication skills. Oh! And priesthood is a choice in here too!</p>
+				<h3>Science, Technology, Engineering, and Mathematics (STEM) Strand</h3>
+				<p>Science, Technology, Engineering, and Mathematics are intertwining disciplines when applied in the real world. The difference of the STEM curriculum with the other strands and tracks is the focus on advanced concepts and topics.
+
+				Under the track, you can become a pilot, an architect, an astrophysicist, a biologist, a chemist, an engineer, a dentist, a nutritionist, a nurse, a doctor, and a lot more. Those who are also interested in Marine Engineering should take this track.</p>
+				<h3>Accountancy, Business and Management (ABM) Strand</h3>
+				<p>The Accountancy, Business and Management (ABM) strand would focus on the basic concepts of financial management, business management, corporate operations, and all things that are accounted for. ABM can also lead you to careers on management and accounting which could be sales manager, human resources, marketing director, project officer, bookkeeper, accounting clerk, internal auditor, and a lot more.</p>
+		</div>
+<div class="shs-info-tvl"></div>
+		<div class="shs-info-aca-content">
+			<p class="track-desc">
+				If you are really not sure if you will be able to pursue any degree after Senior High or if you want to earn money immediately after graduation, then this track is for you. Even without college, Technical-Vocational-Livelihood track will equip you with job-ready skills in the future.
+
+This track also invests primarily on skills that can gain you requisite COCs (Certificates of Competency) and NCs (National Certifications) which would be essential when looking for better career opportunities in agriculture, electronics, and trade. This is also important when applying abroad where the skills you gain would prepare you as you join the workforce.
+
+Also, according to the Department of Education, the TVL specializations may be taken between Grades 9 to 12. Exploratory Subjects at 40 hours per quarter are taken during Grades 7 to 8.
+
+Just like in the Academic Track, there are four strands you can choose from to make sure that you will go with your right fit.
+			</p>
+		</div>
+<div class="shs-info-spo"></div>
+		<div class="shs-info-aca-content">
+			<p class="track-desc">
+				The Sports Track aims to give you understanding of the basic principles and techniques in relation to physical education and recreation. It will also offer you discuss various factors that affect social, psychological, and cognitive development in sports leadership and management. Professions that are related in this track are fitness trainers, game officials, tournament manager, recreation attendant, masseur, or gym instructor.
+			</p>
+		</div>
+<div class="shs-info-aad"></div>
+		<div class="shs-info-aca-content">
+			<p class="track-desc">
+				The arts & Design track will prepare you as you wander around the design, performative, and creative industry. What this track aims is to get you a career in the creative field after you graduate. Breaking the stereotype that is there no careers in this industry, you’ll be surprised how fun the Arts and Design world can be..
+
+To instill the right employment skills so that you can get a job immediately after graduation, part of the curriculum of this track is to expose you to various form of media such as architecture, interior design, industrial design, graphic design, animation, painting, fashion design, photography, and film.
+			</p>
+		</div>
+-->
+<!-- //SHS -->

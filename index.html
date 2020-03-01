@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<meta name="viewpoint" content="width=device-width, initial-scale=1, minimum-scale=1">
+<head>
+	<title>Taclobo National High School</title>
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<script src="https://kit.fontawesome.com/af379d337f.js" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+	<script type="text/javascript">
+		$(window).on('scroll', function(){
+			if ($(window).scrollTop()){
+				$('nav').addClass('black');
+			}
+			else
+			{
+				$('nav').removeClass('black');
+			}
+		})
+	</script>
+</head>
+<body>
+	<!--<div class="signin-bar">test</div>-->
+	<!-- MOBILE NAV 
+		<div id="mobile-nav">
+			<label for="mobile-toggle">&#9776;</label>
+			<input type="checkbox" id="mobile-toggle">
+			<div class="mobile-menu">
+				<a href="#">Home</a>
+				<a href="#">About</a>
+				<a href="#">Tracks</a>
+				<a href="#">Contact Us</a>
+			</div>
+		</div>
+	//MOBILE NAV -->
+	<nav>
+		<div class="logo">
+			<a href="index.html">
+				<img src="logo.png">
+				<span>Taclobo National High School</span>
+                <p>TNHS</p>
+			</a>
+		</div>
+		<ul class="nav-links">
+			<!--<li><a href="#" class="active">Home</a></li>-->
+			<li><a href="about.html" class="nav-buttons">About</a></li>
+			<li><a href="shs.html" class="nav-buttons">Tracks</a></li>
+			<!--<li><a href="#" class="nav-buttons">Events</a></li>-->
+			<li><a href="#" class="nav-buttons">Contact Us</a></li>
+			<li role="separator" class="nav-separator" id="nav-auth"></li>
+			<li><a href="#sec3" class="auth" onclick="register()"><span class="sign-up" id="nav-auth" >Sign Up</span></a></li>
+			<li><a href="#sec3" class="nav-buttons" onclick="login()" id="nav-auth" >Log In</a></li>
+		</ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+	</nav>
+	<section class="sec1">
+		<h2>
+			TNHS
+		</h2>
+		<p>
+			taclobo national high school
+		</p>
+	</section>
+		<div class="int-select">
+			<div class="int-selector1">
+				<img src="images/teacher.png">
+				<h3>Teachers</h3>
+				<p>Meet the beloved teachers in TNHS and learn more about them</p>
+				<a href="#">Read more<i class="fas fa-arrow-circle-right"></i></a>
+			</div>
+			<div class="int-selector2">
+				<img src="images/history.png">
+				<h3>History</h3>
+				<p>Learn more about the brief history of TNHS and how it started</p>
+				<a href="about.html#history-sec">Read more<i class="fas fa-arrow-circle-right"></i></a>
+			</div>
+			<div class="int-selector3">
+				<img src="images/user.png">
+				<h3>Account</h3>
+				<p>Create an account to get notified with the latest updates.</p>
+				<a href="#sec3">Read more<i class="fas fa-arrow-circle-right"></i></a>
+			</div>
+		</div>
+<!-- FIRST SECTION -->
+		<div class="content-sec1">
+		<div class="content">
+			<h2>Welcome to Taclobo National High School</h2><br>
+			<p>Taclobo High School is one of the relatively new public secondary school in the Division of Dumaguete
+city. The school has only started fifteen years ago (1999) but it has steadily grown. The High School is
+situated both in Barangay Batinguel and adjacent to Barangay Motong and had transferred to this new
+site in the school year 2006-2007 under the leadership of Dr. Orlando G. , Cadano.This site is far from the
+busy streets of the heart of the city, yet accessible to transportation through established Barangay and
+city roads.
+			</p>
+			<p>Taclobo High School is a public high school located in Dumaguete City, Negros Oriental, Philippines, established in 1999 by virtue of Republic Act No. 7803, lapsed into law on September 1, 1994, in accordance with Article VI, Section 27 of the Constitution.</p>
+			<a href="about.html">Read more<i class="fas fa-long-arrow-alt-right"></i></a>
+		</div>
+		<div class="sec1-img2">
+			<img src="images/sec-1img.png" class="sec1-img">
+		</div>
+		</div>
+<!-- //FIRST SECTION -->
+<!-- SECOND SECTION -->
+	<div class="sec2"></div>
+		<div class="content-sec2">
+			<h2>Senior High Tracks</h2>
+		<div class="shs-tracks">
+			<div class="shs-aca">
+				<img src="images/shs/icon-academic.png">
+				<h3>Academic Track</h3>
+				<p>College preparation</p>
+				<a href="shs.html#aca">learn more<i class="fas fa-arrow-circle-right"></i></a>
+			</div>
+			<div class="shs-tvl">
+				<img src="images/shs/icon-tvl.png">
+				<h3>Technical-Vocational-Livelihood (TVL) Track</h3>
+				<p>Job-ready skills</p>
+				<a href="shs.html#tvl">learn more<i class="fas fa-arrow-circle-right"></i></a>
+			</div>
+			<div class="shs-spo">
+				<img src="images/shs/icon-sports.png">
+				<h3>Sports Track</h3>
+				<p>Physical education and recreation</p>
+				<a href="shs.html#spo">learn more<i class="fas fa-arrow-circle-right"></i></a>
+			</div>
+			<div class="shs-aad">
+				<img src="images/shs/icon-arts.png">
+				<h3>Arts and Design Track</h3>
+				<p>Design, performatice, and creative industry</p>
+				<a href="shs.html#art">learn more<i class="fas fa-arrow-circle-right"></i></a>
+			</div>
+		</div>
+		</div>
+<!-- //SECOND SECTION -->
+<!-- THIRD SECTION -->
+	<div class="sec3" id="sec3">
+		<div class="content-sec3">
+			<h2>Alumni or Student?</h2>
+			<p>Create an account to get notified with the latest updates.</p>
+			<div class="login-form">
+				<div class="form-box">
+					<div class="form-button">
+						<div id="form-button-btn"></div>
+						<button type="button" class="toggle-btn" onclick="login()">Log in</button>
+						<button type="button" class="toggle-btn" onclick="register()">Register</button>
+					</div>
+					<div class="form-social-icons">
+						<span>Log in with</span><br>
+						<a href="#" onclick="popup()"><i class="fab fa-facebook"></i></a>
+						<a href="#" onclick="popup()"><i class="fab fa-twitter"></i></a>
+						<a href="#" onclick="popup()"><i class="fab fa-google"></i></a>
+					</div>
+				<form id="form-login" class="form-input-group">
+					<div class="form-userid">
+						<input type="Username" name="userid" class="input-field" autocomplete="off" required>
+						<label for="userid" class="label-userid">
+							<span class="userid-username">Username</span>
+						</label>
+					</div>
+					<div class="form-pass">
+						<input type="Password" name="pass" class="input-field" required>
+						<label for="pass" class="label-pass">
+							<span class="userpass-pass">Password</span>
+						</label>
+					</div>
+					<input type="checkbox" class="form-check-box"><span class="form-checkbox-text">Remember Password</span>
+					<button type="submit" class="form-submit-btn" onclick="popup()">Log In</button>
+				</form>
+				<form id="form-register" class="form-input-group">
+					<input type="Username" class="input-field" placeholder="User ID" required>
+					<input type="email" class="input-field" placeholder="Email ID" required>
+					<input type="Passowrd" class="input-field" placeholder="User Passowrd" required>
+					<input type="checkbox" class="form-check-box" required="required"><span class="form-checkbox-text">I agree to the <a href="">Terms</a> & <a href="">Conditions</a></span>
+					<button type="submit" class="form-submit-btn" onclick="popup()">Register</button>
+				</form>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- //THIRD SECTION -->
+	<div class="footer">
+		<div class="footer-content">
+			<div class="footer-section about">
+				<h2 class="logo-text"><span>Taclobo</span> National High School</h2>
+				<p>
+					Taclobo High School, Dumaguete, Negros Oriental 6200, Region 7, Philippines
+				</p>
+				<div class="contact">
+					<span><i class="fas fa-phone"></i>&nbsp; (035)421-1780 / 421-0698</span>
+					<span><i class="fas fa-mobile-alt"></i>&nbsp; 0917 668 1768 (Mrs Gurginia Carasena)</span>
+					<span><i class="fas fa-envelope"></i>&nbsp; taclobonhs@edu.com</span>
+				</div>
+				<div class="socials">
+					<a href="https://www.facebook.com/Taclobo-High-School-SSG-208211242571773/" target="_blank"><i class="fab fa-facebook"></i></a>
+					<a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+					<a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+				</div>
+			</div>
+			<div class="footer-section links">
+				<h2>Quick Links</h2>
+				<ul>
+					<a href="#"><li>Events</li></a>
+					<a href="#"><li>Gallery</li></a>
+					<a href="#"><li>About</li></a>
+					<a href="#"><li>History</li></a>
+					<a href="#"><li>Senior High Strands and Tracks</li></a>
+					<a href="#"><li>Terms and Conditions</li></a>
+				</ul>
+			</div>
+			<div class="footer-section contact-form">
+				<h2>Get in touch</h2>
+				<p>
+					Enter your email and we'll send you more information.
+				</p>
+				<form action="index.html" method="post">
+					<input type="email" name="email" class="text-input contact-input" placeholder="Your email address"><br>
+					<!--<textarea name="message" class="text-input contact-message" placeholder="Your message"></textarea><br>-->
+					<button type="submit" class="btn btn-big contact-btn">
+						<i class="fas fa-envelope"></i>
+						SUBSCRIBE
+					</button>
+				</form>
+			</div>
+		</div>
+
+		<div class="footer-bottom">
+			&copy; taclobonhs.com  |  Designed by Dexter Fort Silva
+		</div>
+	</div>
+<!-- //FOOTER -->
+    
+    <script src="script/script.js"></script>
+	<script>
+		var x = document.getElementById("form-login");
+		var y = document.getElementById("form-register");
+		var z = document.getElementById("form-button-btn");
+
+		function register(){
+			x.style.left = "-400px";
+			y.style.left = "50px";
+			z.style.left = "110px";
+		}
+		function login(){
+			x.style.left = "50px";
+			y.style.left = "450px";
+			z.style.left = "0px";
+		}
+
+		function popup()
+		{
+			alert("OOPS!! This feature is still under construction.");
+		}
+//
+//		function shsAca() {
+//  			var s = document.getElementById("shs-Aca");
+// 			 if (s.style.display === "none") {
+//  				 s.style.display = "block";
+//			  } else {
+//   				 s.style.display = "none";
+//  			}
+//		}
+//		function shsTvl() {
+//  			var s = document.getElementById("shs-Tvl");
+// 			 if (s.style.display === "none") {
+//   				 s.style.display = "block";
+//			  } else {
+//   				 s.style.display = "none";
+//  			}
+//		}
+//		function shsSpo() {
+//  			var s = document.getElementById("shs-Spo");
+// 			 if (s.style.display === "none") {
+//   				 s.style.display = "block";
+//			  } else {
+//   				 s.style.display = "none";
+//  			}
+//		}
+//		function shsAad() {
+//  			var s = document.getElementById("shs-Aad");
+// 			 if (s.style.display === "none") {
+//   				 s.style.display = "block";
+//			  } else {
+//   				 s.style.display = "none";
+//  			}
+//		}
+//
+	</script>
+</body>
+</html>

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<meta name="viewpoint" content="width=device-width, initial-scale=1, minimum-scale=1">
+<head>
+	<title>Taclobo National High School</title>
+	<link rel="stylesheet" type="text/css" href="style/style-about.css">
+	<script src="https://kit.fontawesome.com/af379d337f.js" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+	<script type="text/javascript">
+		$(window).on('scroll', function(){
+			if ($(window).scrollTop()){
+				$('nav').addClass('black');
+			}
+			else
+			{
+				$('nav').removeClass('black');
+			}
+		})
+		$(window).on('scroll', function(){
+			if ($(window).scrollTop()){
+				$('section').addClass('img-blur');
+			}
+			else
+			{
+				$('section').removeClass('img-blur');
+			}
+		})
+	</script>
+</head>
+<body>
+	<!--<div class="signin-bar">test</div>-->
+<!-- NAVIGATION BAR -->
+	
+	<nav>
+		<div class="logo">
+			<a href="index.html">
+				<img src="logo.png">
+				<span>Taclobo National High School</span>
+                <p>TNHS</p>
+			</a>
+		</div>
+		<ul class="nav-links">
+			<!--<li><a href="#" class="active">Home</a></li>-->
+			<li><a href="about.html" class="nav-buttons">About</a></li>
+			<li><a href="shs.html" class="nav-buttons">Tracks</a></li>
+			<!--<li><a href="#" class="nav-buttons">Events</a></li>-->
+			<li><a href="#" class="nav-buttons">Contact Us</a></li>
+			<li role="separator" class="nav-separator" id="nav-auth"></li>
+			<li><a href="#sec3" class="auth" onclick="register()"><span class="sign-up" id="nav-auth" >Sign Up</span></a></li>
+			<li><a href="#sec3" class="nav-buttons" onclick="login()" id="nav-auth" >Log In</a></li>
+		</ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+	</nav>
+<!-- //NAVIGATION BAR -->
+	<section class="sec1">
+		<h2>
+			About TNHS
+		</h2>
+		<p>
+			<span class="b-inactive">
+				<a href="index.html">Home <i class="fa fa-angle-right"></i></a>
+			</span>
+			<span class="b-active">About</span>
+		</p>
+	</section>
+<!-- ABOUT SECTION -->
+		<div class="content-sec1">
+		<div class="content">
+			<h2><span>Taclobo</span> National High School</h2><br>
+			<p>Taclobo High School is a public high school located in Dumaguete City, Negros Oriental, Philippines, established in 1999 by virtue of Republic Act No. 7803, lapsed into law on September 1, 1994, in accordance with Article VI, Section 27 of the Constitution.
+			</p>
+			<p>Taclobo High School is one of the relatively new public secondary school in the Division of Dumaguete city. The school has only started fifteen years ago (1999) but it has steadily grown. The High School is situated both in Barangay Batinguel and adjacent to Barangay Motong and had transferred to this new site in the school year 2006-2007 under the leadership of Dr. Orlando G. , Cadano.This site is far from the busy streets of the heart of the city, yet accessible to transportation through established Barangay and city roads.</p>
+		</div>
+		<div class="sec1-maps">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3937.222657184518!2d123.28647931525573!3d9.313529287030839!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33ab6f1137f0ff67%3A0xd642293b1a012dd0!2sTaclobo%20High%20School!5e0!3m2!1sen!2sph!4v1582210101736!5m2!1sen!2sph" width="500" height="350" frameborder="0" style="" allowfullscreen="" align="middle" class="g-maps"></iframe>
+		</div>
+		</div>
+<!-- //ABOUT SECTION -->
+<!-- HISTORY SECTION -->
+	<div class="sec2"></div>
+		<div class="content-sec2" id="history-sec">
+		<div class="sec2-img">
+		</div>
+		<div class="content2">
+			<h2>History</h2><br>
+			<p>Taclobo High School used to be located in the vicinity of West Elementary School, along Cervantes Street in Dumaguete. It occupied only a very limited area consisting of less than fifteen classrooms, in which building used were ones of the West City Elementary School buildings. It was built there since the Barangay Hall is located just in its vicinity. By the year 2007, the City Government of Dumaguete appropriated funds and settled a new site for the school. Taclobo High School is now situated at West Taclobo, in the boundary of Barangay Batinguel and Taclobo, going inside Pal Subdivision, specifically, 9°18′49″N 123°17′18″ECoordinates: 9°18′49″N 123°17′18″E. The school currently has 21 classrooms and 1 building that serves as the Principal's office. Six of these rooms come from the donation of the Filipino-Chinese Chamber of Commerce and Industry and Super Lee, Inc. Currently there are two more rooms being built to completion.</p>
+			<p>Taclobo High school started operation in June 1999 by virtue of Republic act no. 7803 dated September 01, 1994. During its first year of operation only first year was opened and classes were held at the Mini- Theater of West City Elementary School. Two sections of 50 students each were handed by the three teachers. In June 2000, the second year level was opened. With the increase in enrollment the additional classes were held at the second floor of the Department of the Interior and Local Government or DILG which is now Taclobo Barangay Hall and at Dumaguete City High school.</p>
+			<p>When Taclobo High School graduated its first batch, the school had 377 students, eight teachers and one teacher Aide (Mrs. Gina Cordero). Accommodating the increasing population became a pressing problem. In 2004, the local school Board purchased lots containing an area of 8,687 square meters at a price amount of four million pesos for the Taclobo High School site. The purchased lots are situated at the boundary of Barangay Batinguel and Barangay Taclobo. Additional land was purchase to cater the growth of the High School.</p>
+		</div>
+	</div>
+<!-- //HISTORY SECTION -->
+<!-- THIRD SECTION -->
+	<div class="sec3"></div>
+		<div class="content-sec3">
+		<div class="content">
+			<h2>Administration</h2><br>
+			<p>
+				The former Principal of Taclobo High School was Nelson A. Caday who served from school year 2009 to 2011, succeeding his predecessor, Eleuteria Abiquibil, currently a Principal of Junob National High School. Presently, the school is waiting for a new principal for incoming school year 2011-2012 since the former was soon to move to a higher position, as Dumaguete Schools Division Supervisor.
+			</p>
+		</div>
+		</div>
+	<div class="sec4"></div>
+		<div class="content-sec4">
+		<div class="content">
+			<h2>Students and Facilities</h2><br>
+			<p>As of now, there are five sections, namely: Edison, Newton, Einstein, Galilei, and Kepler, from the First Year level, in addition to the former of only four sections. New sections are being initiated because the school's slight increase in population, especially incoming freshmen. There are four sections in the Second year level, or the Sophomores, namely: Pasteur, Watson, Darwin, and Mendel. In the third year level, or the Juniors, there are also four sections, namely: Quezon, Magsaysay, Osmeña, and Roxas. The fourth year level, or the Seniors, consists of only four sections namely:Bonifcio, Mabini, Rizal, and Del Pilar. The students of Taclobo High School are coined "Tachisians."</p>
+			<p>Taclobo High School is build in a land area of 11,876 square meters. 837 pupils were attending the 17 classes during the school-year 2013/14. A total number of 14 teachers took care of the educational needs of the pupils. Two additional non-teaching staff members are in charge of the daily business.</p>
+			<span>Facilities</span>
+			<ul>
+				<li>Science Room</li>
+				<li>Computer Room</li>
+				<li>Canteen</li>
+				<li>Clinic Room</li>
+				<li>Principals Office</li>
+				<li>Guidance Office</li>
+				<li>2 School Stage</li>
+				<li>Garden area</li>
+				<li>Playground</li>
+			</ul>
+			<p>What is notable with Taclobo High School is the strong working relationship with the Barangay officials and the teachers. Both parties desire to continue such relationship for the betterment of the school and the community.</p>
+		</div>
+		<div class="sec4-img"></div>
+		</div>
+	<div class="sec3"></div>
+<!-- //THIRD SECTION -->
+<!-- FOOTER  -->
+	<div class="footer">
+		<div class="footer-content">
+			<div class="footer-section about">
+				<h2 class="logo-text"><span>Taclobo</span> National High School</h2>
+				<p>
+					Taclobo High School, Dumaguete, Negros Oriental 6200, Region 7, Philippines
+				</p>
+				<div class="contact">
+					<span><i class="fas fa-phone"></i>&nbsp; (035)421-1780 / 421-0698</span>
+					<span><i class="fas fa-mobile-alt"></i>&nbsp; 0917 668 1768 (Mrs Gurginia Carasena)</span>
+					<span><i class="fas fa-envelope"></i>&nbsp; taclobonhs@edu.com</span>
+				</div>
+				<div class="socials">
+					<a href="https://www.facebook.com/Taclobo-High-School-SSG-208211242571773/" target="_blank"><i class="fab fa-facebook"></i></a>
+					<a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+					<a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+				</div>
+			</div>
+			<div class="footer-section links">
+				<h2>Quick Links</h2>
+				<ul>
+					<a href="#"><li>Events</li></a>
+					<a href="#"><li>Gallery</li></a>
+					<a href="#"><li>About</li></a>
+					<a href="#"><li>History</li></a>
+					<a href="#"><li>Senior High Strands and Tracks</li></a>
+					<a href="#"><li>Terms and Conditions</li></a>
+				</ul>
+			</div>
+			<div class="footer-section contact-form">
+				<h2>Get in touch</h2>
+				<p>
+					Enter your email and we'll send you more information.
+				</p>
+				<form action="index.html" method="post">
+					<input type="email" name="email" class="text-input contact-input" placeholder="Your email address"><br>
+					<!--<textarea name="message" class="text-input contact-message" placeholder="Your message"></textarea><br>-->
+					<button type="submit" class="btn btn-big contact-btn">
+						<i class="fas fa-envelope"></i>
+						SUBSCRIBE
+					</button>
+				</form>
+			</div>
+		</div>
+
+		<div class="footer-bottom">
+			&copy; taclobonhs.com  |  Designed by Dexter Fort Silva
+		</div>
+	</div>
+<!-- //FOOTER -->
+    
+    <script src="script/script.js"></script>
+</body>
+</html>

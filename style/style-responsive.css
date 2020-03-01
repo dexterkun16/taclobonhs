@@ -1,0 +1,262 @@
+
+/*Responsive 720p*/
+@media screen and (max-width:1280px){
+    nav ul li a{
+        padding: 0 10px!important;
+        font-size: 13.5px!important;
+    }
+    nav .logo img{
+        height: 40px!important;
+        padding-top: 22px!important;
+    }
+    nav .logo span{
+        font-size: 23px!important;
+    }
+    .nav-separator{
+        height: 22px;
+    }
+    span.sign-up{
+        padding: 8px 18px 8px 18px!important;
+    }
+    nav.black ul li a{
+        font-size: 12.5px!important;
+    }
+    nav.black .logo img{
+        height: 35px!important;
+        padding-top: 9px!important;
+    }
+    nav.black .logo span{
+        font-size: 21px!important;
+    }
+    .sec1 h2{
+        font-size: 8em!important;
+        letter-spacing: 15px!important;
+    }
+    .sec1 p{
+        font-size: 1.5em!important;
+        transform: translate(-138%, 500%)!important;
+    }
+    div.int-select div{
+        height: 35vh !important;
+        width: 230px !important;
+    }
+    div.content-sec1{
+        height: 110vh !important;
+    }
+    div.sec1-img2{
+        background-repeat: no-repeat!important;
+        background-size: 110%!important;
+        background-position: bottom left!important;
+    }
+    div.content-sec2{
+        height: 100vh !important;
+    }
+    div.sec3{
+        height: 110vh!important;
+    }
+    div.shs-tracks div{
+        height: 45vh !important;
+        width: 200px !important;
+    }
+    div.shs-tracks a{
+        margin-left: 50px!important;
+        margin-right: 50px!important;
+    }
+    .footer .footer-content{
+        padding-top: 0!important;
+    }
+}
+/*Responive mobile*/
+@media screen and (max-width:768px){
+    nav{
+        padding: 10px 30px 10px 30px;
+    }
+    nav.black{
+        padding: 10px 30px 10px 30px;
+    }
+    nav ul{
+        width: 100%!important;
+        height: 92vh!important;
+        transition: transform .2s ease-in!important;
+    }
+    nav.black ul{
+        transition: transform .2s ease-in!important;
+    }
+    nav ul li a{
+        font-size: 20px!important;
+        padding: 0;
+        line-height: 0!important;
+    }
+    nav.black ul li a{
+        font-size: 20px!important;
+        padding: 0;
+        line-height: 0!important;
+    }
+    nav .logo img{
+        display: none;
+    } 
+    nav.black .logo img{
+        display: none;
+    } 
+    nav .logo span{
+        display: none;
+    }
+    nav.black .logo span{
+        display: none;
+    }
+    nav .logo p{
+        display: block;
+        font-size: 40px;
+        margin-top: 35px;
+        line-height: 0px;
+    }
+    nav.black .logo p{
+        font-size: 35px;
+        margin-top: 25px;
+        line-height: 0px;
+    }
+    nav .nav-separator{
+        background: #dcdcdc;
+        width: 380px!important;
+    }
+    .sec1{
+        background-position: center!important;
+    }
+    div.int-select{
+        align-items: center;
+        flex-direction: column!important;
+        margin-bottom: 40px;
+    }
+    div.int-select div{
+        width: 300px!important;
+        height: 30vh!important;
+        margin-bottom: 10px!important;
+        padding: 15px 20px!important;
+    }
+    div.content{
+        margin-top: 20px;
+        padding: 10px!important;
+        width: 100%!important;
+    }
+    div.content-sec1{
+        background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../images/sec1-bg.jpg);
+        height: 75vh!important;
+    }
+    div.content h2{
+        font-size: 40px!important;
+        color: #fff!important;
+    }
+    div.content h2:after{
+        background: #f7f7f7!important;
+    }
+    div.content p{
+        color: #f7f7f7!important;
+    }
+    div.content a{
+        color: #fafafa!important;
+    }
+    div.sec1-img2{
+        display: none!important;
+    }
+    div.content-sec2{
+        height: 225vh!important;
+        padding: 10px!important;
+    }
+    div.content-sec2 h2{
+        font-size: 40px!important;
+        padding: 20px!important;
+    }
+    div.shs-tracks div{
+        width: 300px!important;
+        height: 40vh!important;
+    }
+    div.sec3{
+        height: 85vh!important;
+    }
+    div.content-sec3 h2{
+        font-size: 40px!important;
+        padding: 20px!important;
+    }
+    div.content-sec3 p{
+        font-size: 15px;
+    }
+    .footer{
+        height: 86vh!important;
+    }
+    .footer .footer-content{
+        flex-direction: column!important;
+        padding: 0 10px 0px 10px!important;
+    }
+    .footer .footer-content .footer-section{
+        padding: 10px!important;
+    }
+}
+/*Responive Tablet*/
+@media screen and (max-width:1170px){
+    nav{
+        background: #fff;
+        backdrop-filter: none;
+    }
+    nav.black{
+        background: #fff;
+    }
+    nav ul{
+        position: absolute;
+        right: 0px;
+        height: 100vh;
+        top: 8vh;
+        background-color: #f7f7f7;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 25%;
+/*        box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.15);*/
+        transform: translateX(100%);
+        transition: transform .3s ease-in;
+        z-index: 100;
+    }
+    nav.black ul{
+        box-shadow: 0px 20px 16px 0px rgba(0, 0, 0, 0.15);
+        transition: .2s;
+    }
+    nav ul li{
+        opacity: 1;
+    }
+/*
+    nav ul li a{
+        font-size: 1.2em !important;
+
+    }
+*/
+    nav.black ul li a{
+        padding: 0 10px !important;
+        line-height: 20px !important;
+    }
+    .burger{
+        display: block;
+        cursor: pointer;
+    }
+    nav .nav-separator{
+        display: block;
+        margin: 5px 0 5px 0;
+        height: 2px;
+        width: 50px;
+    }
+    nav ul #nav-auth{
+       display: non;
+    }
+    nav .logo img{
+        height: 50px !important;
+        padding-top: 15px !important;
+    } 
+    nav.black .logo img{
+        height: 45px !important;
+        padding-top: 3px !important;
+    } 
+    nav .logo span{
+        font-size: 30px !important;
+    }
+    nav.black .logo span{
+        font-size: 25px !important;
+    }
+}

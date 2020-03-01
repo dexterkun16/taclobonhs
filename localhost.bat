@@ -1,0 +1,1 @@
+browser-sync start --server --files "index.html, about.html, contact.html, events.html, shs.html, style/style.css, style/style-about.css, style/style-contact.css, style/style-events.css, style/style-shs.css, "

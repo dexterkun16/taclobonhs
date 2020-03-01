@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Taclobo National High School</title>
+	<link rel="stylesheet" type="text/css" href="style/style-about.css">
+	<script src="https://kit.fontawesome.com/af379d337f.js" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+	<script type="text/javascript">
+		$(window).on('scroll', function(){
+			if ($(window).scrollTop()){
+				$('nav').addClass('black');
+			}
+			else
+			{
+				$('nav').removeClass('black');
+			}
+		})
+	</script>
+</head>
+<body>
+	<!--<div class="signin-bar">test</div>-->
+	<nav>
+		<div class="logo">
+			<a href="index.html">
+				<img src="logo.png">
+				<span>Taclobo National High School</span>
+			</a>
+		</div>
+		<ul>
+			<!--<li><a href="#" class="active">Home</a></li>-->
+			<li><a href="about.html" class="active">About</a></li>
+			<li><a href="#" class="nav-buttons">History</a></li>
+			<li><a href="#" class="nav-buttons">Events</a></li>
+			<li><a href="#" class="nav-buttons">Contact Us</a></li>
+			<li role="separator" class="nav-separator"></li>
+			<li><a href="#" class="auth"><span class="sign-up">Sign Up</span></a></li>
+			<li><a href="#" class="nav-buttons">Log In</a></li>
+		</ul>
+	</nav>
+	<section class="sec1">
+		<div class="content-sec1">
+			<div class="content">
+				<h2>
+					Taclobo High School
+				</h2><br>
+				<p>
+					Taclobo High School is a public high school located in Dumaguete City, Negros Oriental, Philippines, established in 1999 by virtue of Republic Act No. 7803, lapsed into law on September 1, 1994, in accordance with Article VI, Section 27 of the Constitution.
+				</p>
+			</div>
+		</div>
+	</section>
+		
+	<div class="footer">
+		<div class="footer-content">
+			<div class="footer-section about">
+				<h2 class="logo-text"><span>Taclobo</span> National High School</h2>
+				<p>
+					Taclobo High School, Dumaguete, Negros Oriental 6200, Region 7, Philippines
+				</p>
+				<div class="contact">
+					<span><i class="fas fa-phone"></i>&nbsp; 123-456-789</span>
+					<span><i class="fas fa-envelope"></i>&nbsp; taclobonhs@edu.com</span>
+				</div>
+				<div class="socials">
+					<a href="https://www.facebook.com/Taclobo-High-School-SSG-208211242571773/" target="_blank"><i class="fab fa-facebook"></i></a>
+					<a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+					<a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+				</div>
+			</div>
+			<div class="footer-section links">
+				<h2>Quick Links</h2>
+				<ul>
+					<a href="#"><li>Events</li></a>
+					<a href="#"><li>Gallery</li></a>
+					<a href="#"><li>About</li></a>
+					<a href="#"><li>History</li></a>
+					<a href="#"><li>Senior High Strands and Tracks</li></a>
+					<a href="#"><li>Terms and Conditions</li></a>
+				</ul>
+			</div>
+			<div class="footer-section contact-form">
+				<h2>Get in touch</h2>
+				<p>
+					Enter your email and we'll send you more information.
+				</p>
+				<form action="index.html" method="post">
+					<input type="email" name="email" class="text-input contact-input" placeholder="Your email address"><br>
+					<!--<textarea name="message" class="text-input contact-message" placeholder="Your message"></textarea><br>-->
+					<button type="submit" class="btn btn-big contact-btn">
+						<i class="fas fa-envelope"></i>
+						SUBSCRIBE
+					</button>
+				</form>
+			</div>
+		</div>
+
+		<div class="footer-bottom">
+			&copy; taclobonhs.com  |  Designed by Dexter Fort Silva
+		</div>
+	</div>
+</body>
+</html>

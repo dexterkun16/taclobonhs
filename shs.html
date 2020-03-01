@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Taclobo National High School</title>
+	<link rel="stylesheet" type="text/css" href="style/style-shs.css">
+	<script src="https://kit.fontawesome.com/af379d337f.js" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+	<script type="text/javascript">
+		$(window).on('scroll', function(){
+			if ($(window).scrollTop()){
+				$('nav').addClass('black');
+			}
+			else
+			{
+				$('nav').removeClass('black');
+			}
+		})
+		$(window).on('scroll', function(){
+			if ($(window).scrollTop()){
+				$('section').addClass('img-blur');
+			}
+			else
+			{
+				$('section').removeClass('img-blur');
+			}
+		})
+	</script>
+</head>
+<body>
+	<!--<div class="signin-bar">test</div>-->
+<!-- NAVIGATION BAR -->
+	<nav>
+		<div class="logo">
+			<a href="index.html">
+				<img src="logo.png">
+				<span>Taclobo National High School</span>
+			</a>
+		</div>
+		<ul>
+			<!--<li><a href="#" class="active">Home</a></li>-->
+			<li><a href="about.html">About</a></li>
+			<li><a href="shs.html" class="active">Tracks</a></li>
+			<!--<li><a href="#" class="nav-buttons">Events</a></li>-->
+			<li><a href="#" class="nav-buttons">Contact Us</a></li>
+			<li role="separator" class="nav-separator"></li>
+			<li><a href="index.html#sec3" class="auth" onclick="register()"><span class="sign-up">Sign Up</span></a></li>
+			<li><a href="index.html#sec3" class="nav-buttons">Log In</a></li>
+		</ul>
+	</nav>
+<!-- //NAVIGATION BAR -->
+	<section class="sec1">
+		<h2>
+			Senior High School Tracks
+		</h2>
+		<p>
+			<span class="b-inactive">
+				<a href="index.html">Home <i class="fa fa-angle-right"></i></a>
+			</span>
+			<span class="b-active">SHS tracks</span>
+		</p>
+	</section>
+<!-- ACADEMIC TRACK -->
+		<div class="content-sec1" id="aca">
+		<div class="content">
+			<h2>Academic Track</h2>
+			<h4 class="track-desc">
+Choosing this track means you are looking forward to go to college. This track will help you prepare yourself for the subject specialization of the college course you will take in the future.
+
+You have four strands in this track to choose from:
+			</h4><br>
+			<h1>Strands :</h1>
+				<h3>General Academic Strand (GAS)</h3>
+				<p>While the other strands are career-specific, the General Academic Strand is great for students who are still undecided on which track to take. You can choose electives from the different academic strands under this track. These subjects include Humanities, Social Sciences, Applied Economics, Organization and Management, and Disaster Preparedness.</p>
+				<h3>Humanities and Social Sciences (HUMSS) Strand</h3>
+				<p>The HUMMS strand is designed for those who wonder what is on the other side of the wall. In other words, you are ready to take on the world and talk to a lot of people. This is for those who are considering taking up journalism, communication arts, liberal arts, education, and other social science-related courses in college.
+
+If you take this strand, you could be looking forward to becoming a teacher, a psychologist, a lawyer, a writer, a social worker, or a reporter someday. This strand focuses on improving your communication skills. Oh! And priesthood is a choice in here too!</p>
+				<h3>Science, Technology, Engineering, and Mathematics (STEM) Strand</h3>
+				<p>Science, Technology, Engineering, and Mathematics are intertwining disciplines when applied in the real world. The difference of the STEM curriculum with the other strands and tracks is the focus on advanced concepts and topics.
+
+Under the track, you can become a pilot, an architect, an astrophysicist, a biologist, a chemist, an engineer, a dentist, a nutritionist, a nurse, a doctor, and a lot more. Those who are also interested in Marine Engineering should take this track.</p>
+				<h3>Accountancy, Business and Management (ABM) Strand</h3>
+				<p>The Accountancy, Business and Management (ABM) strand would focus on the basic concepts of financial management, business management, corporate operations, and all things that are accounted for. ABM can also lead you to careers on management and accounting which could be sales manager, human resources, marketing director, project officer, bookkeeper, accounting clerk, internal auditor, and a lot more.</p>
+		</div>
+		</div>
+<!-- //ACADEMIC TRACK -->
+<!-- TVL -->
+	<div class="sec2"></div>
+		<div class="content-sec2" id="tvl">
+		<div class="content">
+			<h2>Technical-Vocational-Livelihood (TVL) Track</h2>
+			<h4 class="track-desc">If you are really not sure if you will be able to pursue any degree after Senior High or if you want to earn money immediately after graduation, then this track is for you. Even without college, Technical-Vocational-Livelihood track will equip you with job-ready skills in the future.
+
+This track also invests primarily on skills that can gain you requisite COCs (Certificates of Competency) and NCs (National Certifications) which would be essential when looking for better career opportunities in agriculture, electronics, and trade. This is also important when applying abroad where the skills you gain would prepare you as you join the workforce.
+
+Also, according to the Department of Education, the TVL specializations may be taken between Grades 9 to 12. Exploratory Subjects at 40 hours per quarter are taken during Grades 7 to 8.
+
+Just like in the Academic Track, there are four strands you can choose from to make sure that you will go with your right fit.
+			</h4><br>
+			<h1>Strands :</h1>
+				<h3>Agri-Fishery Arts Strand</h3>
+					<p>The Agri-Fishery strand was designed for hands-on learning and application of skills that are related to agriculture and aquaculture. You will be taking various subjects that are connected to other jobs such as food processing, rubber production, animal production, or landscape installation.</p>
+				<h3>Home Economics Strand</h3>
+					<p>The Home Economics track offers various specializations that can lead to livelihood projects at home. This strand aims to give you job-ready skills that can help you in finding the right employment.</p>
+				<h3>Industrial Arts Strand</h3>
+					<p>Technical Livelihood Education subjects under this track are following the TESDA curriculum so if you are thinking of taking any of technical-vocational courses, this is the strand you should take. Industrial Arts will provide you the skills and knowledge on carpentry, automotive servicing, driving, electronics repair, electrical installation, welding, plumbing, and tile setting.</p>
+				<h3>Information and Communications Technology (ICT) Strand</h3>
+					<p>If you are computer-savvy or a technological freak, step right into the ICT strand. Under this strand, you will be encouraged to utilize information and communication technological tools to contextualize, collaborate, and create experiences for learning in this professional strand.</p>
+		</div>
+	</div>
+<!-- //TVL -->
+<!-- THIRD SECTION -->
+	<div class="sec3"></div>
+		<div class="content-sec3" id="spo">
+		<div class="content">
+			<h2>Sports Track</h2>
+			<h4 class="track-desc">The Sports Track aims to give you understanding of the basic principles and techniques in relation to physical education and recreation. It will also offer you discuss various factors that affect social, psychological, and cognitive development in sports leadership and management. Professions that are related in this track are fitness trainers, game officials, tournament manager, recreation attendant, masseur, or gym instructor.
+			</h4>
+		</div>
+		</div>
+	<div class="sec4"></div>
+		<div class="content-sec4" id="art">
+		<div class="content">
+			<h2>Arts and Design Track</h2>
+			<h4 class="track-desc">The arts & Design track will prepare you as you wander around the design, performative, and creative industry. What this track aims is to get you a career in the creative field after you graduate. Breaking the stereotype that is there no careers in this industry, you’ll be surprised how fun the Arts and Design world can be..
+
+To instill the right employment skills so that you can get a job immediately after graduation, part of the curriculum of this track is to expose you to various form of media such as architecture, interior design, industrial design, graphic design, animation, painting, fashion design, photography, and film
+			</h4>
+		</div>
+		</div>
+	<div class="sec3"></div>
+<!-- //THIRD SECTION -->
+<!-- FOOTER  -->
+	<div class="footer">
+		<div class="footer-content">
+			<div class="footer-section about">
+				<h2 class="logo-text"><span>Taclobo</span> National High School</h2>
+				<p>
+					Taclobo High School, Dumaguete, Negros Oriental 6200, Region 7, Philippines
+				</p>
+				<div class="contact">
+					<span><i class="fas fa-phone"></i>&nbsp; (035)421-1780 / 421-0698</span>
+					<span><i class="fas fa-mobile-alt"></i>&nbsp; 0917 668 1768 (Mrs Gurginia Carasena)</span>
+					<span><i class="fas fa-envelope"></i>&nbsp; taclobonhs@edu.com</span>
+				</div>
+				<div class="socials">
+					<a href="https://www.facebook.com/Taclobo-High-School-SSG-208211242571773/" target="_blank"><i class="fab fa-facebook"></i></a>
+					<a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+					<a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+				</div>
+			</div>
+			<div class="footer-section links">
+				<h2>Quick Links</h2>
+				<ul>
+					<a href="#"><li>Events</li></a>
+					<a href="#"><li>Gallery</li></a>
+					<a href="#"><li>About</li></a>
+					<a href="#"><li>History</li></a>
+					<a href="#"><li>Senior High Strands and Tracks</li></a>
+					<a href="#"><li>Terms and Conditions</li></a>
+				</ul>
+			</div>
+			<div class="footer-section contact-form">
+				<h2>Get in touch</h2>
+				<p>
+					Enter your email and we'll send you more information.
+				</p>
+				<form action="index.html" method="post">
+					<input type="email" name="email" class="text-input contact-input" placeholder="Your email address"><br>
+					<!--<textarea name="message" class="text-input contact-message" placeholder="Your message"></textarea><br>-->
+					<button type="submit" class="btn btn-big contact-btn">
+						<i class="fas fa-envelope"></i>
+						SUBSCRIBE
+					</button>
+				</form>
+			</div>
+		</div>
+
+		<div class="footer-bottom">
+			&copy; taclobonhs.com  |  Designed by Dexter Fort Silva
+		</div>
+	</div>
+<!-- //FOOTER -->
+</body>
+</html>
